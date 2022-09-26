@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    margin-left: 3%;
+    background-image: url(background_image6.jpg);
+    /* background-size: cover; */
+    background-size:100% 100vh;
+    background-repeat: no-repeat;
+    background-color: #226386;
+    overflow: hidden;
+}
+
+.porcupine {
+    position: absolute;
+    width: 280px;
+    height: 170px;
+    top: 492px;
+    left: 420px;
+
+}
+
+.container{
+    position: absolute;
+    top: 100px;
+    left: 780px;
+    display:flex;
+    /* align-items: center; */
+    /* justify-content: center;   */
+    height: 700px;
+    text-align: center;
+}
+
+.login_box{
+    position:sticky;
+    width: 374px;
+    height: 330px;
+    padding: 50px;
+
+    /* background: #36393F; */
+    background: white;
+    border-radius: 40px;
+    box-sizing: border-box;
+    /* box-shadow: 0px 5px 25px rgb(0 0 0 / 0.4); */
+}
+
+input{
+    width: 250px;
+    height: 44px;
+    /* background: #292A2D; */
+    border-radius: 6px;
+    border: 1px solid grey;
+    text-indent: 10px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    transition: all 0.25s ease-in-out;
+  /* transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s; */
+}
+
+input:focus {
+	outline: none;
+    border: 1px solid #eff5f2;
+    background-color: #eff5f2;
+	/* border: 3px solid #2596be; */
+    /* background-color: #eff5f2;
+    transition-duration: 0.3s; */
+    /* box-shadow: inset 0 0 3px 3px #2596be; */
+
+    /* transition: background .3s;
+    transition-property: background;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+}
+
+/* input:hover {
+    outline: none;
+    background-color: #eff5f2;
+} */
+
+#t2 {
+    padding-right: 33px;
+    width: 219px;
+
+}
+
+i {
+	position: relative;
+	margin-left: -48px;
+	cursor: pointer;
+    font-size: 27px;
+
+}
+
+button{
+    margin-top: 8%;
+    width: 256px;
+    height: 44px;
+    background: #2596be;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #1d7999;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+#signup{
+    font-size: 13px;
+    color: #2596be;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup {
+	font-size: 13px;
+	/* color: #99aab5; */
+	color: black;
+	margin-top: 45px;
+}
+
+.error {
+	font-size: 13px;
+	color: red;
+}
